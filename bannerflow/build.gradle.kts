@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    id("maven-publish")
 }
 
 android {
@@ -40,6 +41,21 @@ android {
         viewBinding = true
     }
 }
+
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "com.github.Ojaswakesharwani"
+            artifactId = "BannerFlowAndroid"
+            version = "1.0.0"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+}
+
 
 dependencies {
     implementation(libs.androidx.core.ktx)
