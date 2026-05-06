@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="BannerFlowView">
+
+        <attr
+            name="bf_autoScroll"
+            format="boolean"/>
+
+        <attr
+            name="bf_scrollDelay"
+            format="integer"/>
+
+    </declare-styleable>
+
+</resources>
