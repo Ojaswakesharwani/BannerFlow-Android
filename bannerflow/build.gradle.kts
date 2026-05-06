@@ -1,13 +1,12 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    id("maven-publish")
 }
 
 android {
-    namespace = "com.example.bannerflow"
-    compileSdk {
-        version = release(36)
-    }
+    namespace = "io.github.ojaswakesharwani.bannerflow"
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 26
@@ -36,7 +35,29 @@ android {
     buildFeatures{
         viewBinding = true
     }
+
 }
+
+afterEvaluate {
+
+    publishing {
+
+        publications {
+
+            create<MavenPublication>("release") {
+
+                from(components["release"])
+
+                groupId = "com.github.Ojaswakesharwani"
+
+                artifactId = "BannerFlow-Android"
+
+                version = "1.0.0"
+            }
+        }
+    }
+}
+
 
 dependencies {
     implementation(libs.androidx.core.ktx)
@@ -46,4 +67,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("io.coil-kt:coil:2.7.0")
+    implementation("androidx.viewpager2:viewpager2:1.1.0")
 }
+
