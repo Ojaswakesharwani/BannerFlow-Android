@@ -56,7 +56,7 @@ class BannerAdapter(
 
             imageLoader.load(
                 imgBanner,
-                item.imageUrl
+                item.image
             )
         }
 

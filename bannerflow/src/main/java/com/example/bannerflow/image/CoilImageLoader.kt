@@ -12,10 +12,10 @@ class CoilImageLoader : ImageLoader {
 
     override fun load(
         imageView: ImageView,
-        url: String
+        image: Any
     ) {
 
-        imageView.load(url) {
+        imageView.load(image) {
 
             crossfade(true)
         }

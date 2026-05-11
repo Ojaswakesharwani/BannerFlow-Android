@@ -8,7 +8,17 @@ package com.example.bannerflow.model
 
 data class BannerItem(
 
-    val imageUrl: String,
+    /**
+     * Supported:
+     * - Image URL
+     * - Drawable resource
+     * - PNG/JPG/WEBP
+     * - Uri
+     * - File
+     * - Bitmap
+     * - Drawable
+     */
+    val image: Any,
 
     val title: String? = null,
 
