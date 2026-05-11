@@ -47,7 +47,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.Ojaswakesharwani"
             artifactId = "BannerFlowAndroid"
-            version = "1.2.0"
+            version = "1.2.1"
 
             afterEvaluate {
                 from(components["release"])
