@@ -26,37 +26,37 @@ class MainActivity : AppCompatActivity() {
             listOf(
 
                 BannerItem(
-                    imageUrl = "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+                    image = "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
                     title = "Flat 50% OFF",
                     subtitle = "Premium Haircut",
                     cta = "Book Now"
                 ),
                 BannerItem(
-                    imageUrl = "https://media.wired.com/photos/5d72ea989fef0d0008852457/3:2/w_1920,c_limit/Fake-IG-Followers-Top-Art-1133439473.jpg",
+                    image = "https://media.wired.com/photos/5d72ea989fef0d0008852457/3:2/w_1920,c_limit/Fake-IG-Followers-Top-Art-1133439473.jpg",
                     title = "Flat 20% OFF",
                     subtitle = "Premium triming ",
                     cta = "Book Now"
 
                 ), BannerItem(
-                    imageUrl = "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+                    image = "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
                     title = "Flat 50% OFF",
                     subtitle = "Premium Haircut",
                     cta = "Book Now"
                 ),
                 BannerItem(
-                    imageUrl = "https://media.wired.com/photos/5d72ea989fef0d0008852457/3:2/w_1920,c_limit/Fake-IG-Followers-Top-Art-1133439473.jpg",
+                    image = "https://media.wired.com/photos/5d72ea989fef0d0008852457/3:2/w_1920,c_limit/Fake-IG-Followers-Top-Art-1133439473.jpg",
                     title = "Flat 20% OFF",
                     subtitle = "Premium triming ",
                     cta = "Book Now"
 
                 ), BannerItem(
-                    imageUrl = "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+                    image = "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
                     title = "Flat 50% OFF",
                     subtitle = "Premium Haircut",
                     cta = "Book Now"
                 ),
                 BannerItem(
-                    imageUrl = "https://media.wired.com/photos/5d72ea989fef0d0008852457/3:2/w_1920,c_limit/Fake-IG-Followers-Top-Art-1133439473.jpg",
+                    image = "https://media.wired.com/photos/5d72ea989fef0d0008852457/3:2/w_1920,c_limit/Fake-IG-Followers-Top-Art-1133439473.jpg",
                     title = "Flat 20% OFF",
                     subtitle = "Premium triming ",
                     cta = "Book Now"
