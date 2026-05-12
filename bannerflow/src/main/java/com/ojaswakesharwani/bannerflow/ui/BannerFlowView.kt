@@ -1,4 +1,4 @@
-package com.example.bannerflow.ui
+package com.ojaswakesharwani.bannerflow.ui
 
 
 import android.content.Context
@@ -8,13 +8,13 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.FrameLayout
 import com.example.bannerflow.R
-import com.example.bannerflow.adapter.BannerAdapter
+import com.ojaswakesharwani.bannerflow.adapter.BannerAdapter
 import com.example.bannerflow.databinding.BannerFlowViewBinding
-import com.example.bannerflow.image.CoilImageLoader
-import com.example.bannerflow.image.ImageLoader
-import com.example.bannerflow.listener.OnBannerClickListener
-import com.example.bannerflow.model.BannerItem
-import com.example.bannerflow.transformer.ZoomOutPageTransformer
+import com.ojaswakesharwani.bannerflow.image.CoilImageLoader
+import com.ojaswakesharwani.bannerflow.image.ImageLoader
+import com.ojaswakesharwani.bannerflow.listener.OnBannerClickListener
+import com.ojaswakesharwani.bannerflow.model.BannerItem
+import com.ojaswakesharwani.bannerflow.transformer.ZoomOutPageTransformer
 import com.google.android.material.tabs.TabLayoutMediator
 
 /**

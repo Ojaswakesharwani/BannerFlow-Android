@@ -1,4 +1,4 @@
-package com.example.bannerflow.image
+package com.ojaswakesharwani.bannerflow.image
 
 import android.widget.ImageView
 

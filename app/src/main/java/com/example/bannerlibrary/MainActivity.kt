@@ -5,8 +5,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.bannerflow.model.BannerItem
-import com.example.bannerflow.ui.BannerFlowView
+import com.ojaswakesharwani.bannerflow.model.BannerItem
+import com.ojaswakesharwani.bannerflow.ui.BannerFlowView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

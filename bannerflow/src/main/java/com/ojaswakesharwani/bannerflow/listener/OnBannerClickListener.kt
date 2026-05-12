@@ -1,6 +1,6 @@
-package com.example.bannerflow.listener
+package com.ojaswakesharwani.bannerflow.listener
 
-import com.example.bannerflow.model.BannerItem
+import com.ojaswakesharwani.bannerflow.model.BannerItem
 
 
 /**

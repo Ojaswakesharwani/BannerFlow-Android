@@ -1,4 +1,4 @@
-package com.example.bannerflow.transformer
+package com.ojaswakesharwani.bannerflow.transformer
 
 
 import android.view.View

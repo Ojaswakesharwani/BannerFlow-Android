@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bannerflow"
+    namespace = "com.ojaswakesharwani.bannerflow"
     compileSdk {
         version = release(36)
     }
@@ -47,7 +47,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.Ojaswakesharwani"
             artifactId = "BannerFlowAndroid"
-            version = "1.2.1"
+            version = "2.0.0"
 
             afterEvaluate {
                 from(components["release"])

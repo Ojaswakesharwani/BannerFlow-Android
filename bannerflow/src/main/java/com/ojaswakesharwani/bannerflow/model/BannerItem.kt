@@ -1,4 +1,4 @@
-package com.example.bannerflow.model
+package com.ojaswakesharwani.bannerflow.model
 
 
 /**
