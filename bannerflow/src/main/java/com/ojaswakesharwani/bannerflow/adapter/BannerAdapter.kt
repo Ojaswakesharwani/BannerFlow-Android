@@ -4,7 +4,7 @@ package com.ojaswakesharwani.bannerflow.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.bannerflow.databinding.ItemBannerBinding
+import com.ojaswakesharwani.bannerflow.databinding.ItemBannerBinding
 import com.ojaswakesharwani.bannerflow.image.ImageLoader
 import com.ojaswakesharwani.bannerflow.listener.OnBannerClickListener
 import com.ojaswakesharwani.bannerflow.model.BannerItem

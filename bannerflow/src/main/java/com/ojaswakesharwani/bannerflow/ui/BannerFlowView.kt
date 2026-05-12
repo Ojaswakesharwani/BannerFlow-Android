@@ -7,15 +7,15 @@ import android.os.Looper
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.FrameLayout
-import com.example.bannerflow.R
 import com.ojaswakesharwani.bannerflow.adapter.BannerAdapter
-import com.example.bannerflow.databinding.BannerFlowViewBinding
 import com.ojaswakesharwani.bannerflow.image.CoilImageLoader
 import com.ojaswakesharwani.bannerflow.image.ImageLoader
 import com.ojaswakesharwani.bannerflow.listener.OnBannerClickListener
 import com.ojaswakesharwani.bannerflow.model.BannerItem
 import com.ojaswakesharwani.bannerflow.transformer.ZoomOutPageTransformer
 import com.google.android.material.tabs.TabLayoutMediator
+import com.ojaswakesharwani.bannerflow.R
+import com.ojaswakesharwani.bannerflow.databinding.BannerFlowViewBinding
 
 /**
  * BannerFlow
