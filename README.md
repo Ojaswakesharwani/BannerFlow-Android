@@ -47,10 +47,8 @@ BannerFlow supports:
 
 # 🎥 Preview
 
-https://github.com/user-attachments/assets/YOUR_VIDEO_ID
-
-> Replace the above video URL with your uploaded GitHub video link.
-
+[https://github.com/user-attachments/assets/YOUR_VIDEO_ID
+](https://github.com/Ojaswakesharwani/BannerFlow-Android/issues/1)
 ---
 
 # 📸 Preview Screenshots
